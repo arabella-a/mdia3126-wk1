@@ -1,4 +1,4 @@
-import { Image } from "react-native";
+import { Image, View } from "react-native";
 
 export default function Image(){
     return(
@@ -7,7 +7,7 @@ export default function Image(){
                 borderRadius: 10
             }}
         >
-            <img src=""/>
+            <Image src=""/>
         </View>
     )
 }

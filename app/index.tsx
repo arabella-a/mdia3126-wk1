@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import InputForm from "@/components/molecules/InputForm";
+import Profile from "@/components/molecules/Profile";
 
 export default function Index(){
     return(
@@ -10,7 +10,7 @@ export default function Index(){
                 alignItems: "center",
             }}
         >
-            <InputForm labelText="this is a label!" buttonText="click me"/>
+        <Profile labelText="Candice Smith" infoText="blah blah blah blah" buttonText="Follow"/>
         </View>
     );
 };

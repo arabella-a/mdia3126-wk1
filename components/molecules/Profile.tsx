@@ -1,20 +1,17 @@
 import { View } from "react-native";
-import Button from "@/components/atoms/Button";
 import Label from "@/components/atoms/Label";
-import Info from "@/components/atoms/Info";
 
-export default function Profile({ labelText, buttonText, infoText }){
+export default function Profile({ labelText, buttonText}){
     return(
         <View
             style={{
                 flexDirection:"row",
-                gap: 10,
+                gap: 20,
                 alignItems: "center"
             }}    
         >
+        <img src="/assets/images/doggo.jpg" alt="woman smilling" style={{width:200, height: 200, borderRadius:"50%"}}/>
         <Label labelText={labelText} />
-        <Info infoText={infoText}/>
-        <Button buttonText={buttonText} />
         </View>
     );
 };

@@ -12,7 +12,7 @@ export default function Index(){
             }}
         >
         <Profile labelText="Candice Smith" buttonText="Follow"/>
-        <Bio bioText="hi! my name is candice! this is a profile i made to meet new friends :>"/>
+        <Bio bioText="hi! my name is candice! this is a profile i made to meet new friends :> I am 21 yrs old and my hobby is playing games and sleeping. I'm currently in the process of getting my BA in Education in UCLA. If anyone wants to hmu, my insta handle is @cancandice! Have a great day :D"/>
         </View>
     );
 };
